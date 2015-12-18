@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/001-字符串最后一个单词的长度/001-字符串最后一个单词的长度.iml" filepath="$PROJECT_DIR$/001-字符串最后一个单词的长度/001-字符串最后一个单词的长度.iml" />
+      <module fileurl="file://$PROJECT_DIR$/002-计算字符个数/002-计算字符个数.iml" filepath="$PROJECT_DIR$/002-计算字符个数/002-计算字符个数.iml" />
+    </modules>
+  </component>
+</project>
