@@ -4,6 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/001-字符串最后一个单词的长度/001-字符串最后一个单词的长度.iml" filepath="$PROJECT_DIR$/001-字符串最后一个单词的长度/001-字符串最后一个单词的长度.iml" />
       <module fileurl="file://$PROJECT_DIR$/002-计算字符个数/002-计算字符个数.iml" filepath="$PROJECT_DIR$/002-计算字符个数/002-计算字符个数.iml" />
+      <module fileurl="file://$PROJECT_DIR$/003-明明的随机数/003-明明的随机数.iml" filepath="$PROJECT_DIR$/003-明明的随机数/003-明明的随机数.iml" />
+      <module fileurl="file://$PROJECT_DIR$/004-字符串分隔/004-字符串分隔.iml" filepath="$PROJECT_DIR$/004-字符串分隔/004-字符串分隔.iml" />
+      <module fileurl="file://$PROJECT_DIR$/005-进制转换/005-进制转换.iml" filepath="$PROJECT_DIR$/005-进制转换/005-进制转换.iml" />
       <module fileurl="file://$PROJECT_DIR$/006-质数因子/006-质数因子.iml" filepath="$PROJECT_DIR$/006-质数因子/006-质数因子.iml" />
       <module fileurl="file://$PROJECT_DIR$/007-取近似值/007-取近似值.iml" filepath="$PROJECT_DIR$/007-取近似值/007-取近似值.iml" />
       <module fileurl="file://$PROJECT_DIR$/008-合并表记录/008-合并表记录.iml" filepath="$PROJECT_DIR$/008-合并表记录/008-合并表记录.iml" />
