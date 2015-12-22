@@ -1,0 +1,13 @@
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+//        Scanner scanner = new Scanner(Main.class.getClassLoader().getResourceAsStream("data.txt"));
+        while (scanner.hasNext()) {
+            int input = scanner.nextInt();
+            System.out.println(countOnes(input));
+        }
+
+        scanner.close();
+    }
+}

@@ -26,7 +26,6 @@ public class Main {
             input >>>= 1;
         }
 
-
         return result;
     }
 }
