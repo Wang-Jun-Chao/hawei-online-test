@@ -14,6 +14,9 @@
       <module fileurl="file://$PROJECT_DIR$/013-句子逆序/013-句子逆序.iml" filepath="$PROJECT_DIR$/013-句子逆序/013-句子逆序.iml" />
       <module fileurl="file://$PROJECT_DIR$/014-字串的连接最长路径查找/014-字串的连接最长路径查找.iml" filepath="$PROJECT_DIR$/014-字串的连接最长路径查找/014-字串的连接最长路径查找.iml" />
       <module fileurl="file://$PROJECT_DIR$/015-求int型数据在内存中存储时1的个数/015-求int型数据在内存中存储时1的个数.iml" filepath="$PROJECT_DIR$/015-求int型数据在内存中存储时1的个数/015-求int型数据在内存中存储时1的个数.iml" />
+      <module fileurl="file://$PROJECT_DIR$/016-坐标移动/016-坐标移动.iml" filepath="$PROJECT_DIR$/016-坐标移动/016-坐标移动.iml" />
+      <module fileurl="file://$PROJECT_DIR$/017-密码验证合格程序/017-密码验证合格程序.iml" filepath="$PROJECT_DIR$/017-密码验证合格程序/017-密码验证合格程序.iml" />
+      <module fileurl="file://$PROJECT_DIR$/018-识别有效的IP地址和掩码并进行分类统计/018-识别有效的IP地址和掩码并进行分类统计.iml" filepath="$PROJECT_DIR$/018-识别有效的IP地址和掩码并进行分类统计/018-识别有效的IP地址和掩码并进行分类统计.iml" />
     </modules>
   </component>
 </project>
