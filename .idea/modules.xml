@@ -24,6 +24,8 @@
       <module fileurl="file://$PROJECT_DIR$/020-简单密码破解/020-简单密码破解.iml" filepath="$PROJECT_DIR$/020-简单密码破解/020-简单密码破解.iml" />
       <module fileurl="file://$PROJECT_DIR$/021-汽水瓶/021-汽水瓶.iml" filepath="$PROJECT_DIR$/021-汽水瓶/021-汽水瓶.iml" />
       <module fileurl="file://$PROJECT_DIR$/022-删除字符串中出现次数最少的字符/022-删除字符串中出现次数最少的字符.iml" filepath="$PROJECT_DIR$/022-删除字符串中出现次数最少的字符/022-删除字符串中出现次数最少的字符.iml" />
+      <module fileurl="file://$PROJECT_DIR$/023-字符串加解密/023-字符串加解密.iml" filepath="$PROJECT_DIR$/023-字符串加解密/023-字符串加解密.iml" />
+      <module fileurl="file://$PROJECT_DIR$/024-字符串排序/024-字符串排序.iml" filepath="$PROJECT_DIR$/024-字符串排序/024-字符串排序.iml" />
     </modules>
   </component>
 </project>
