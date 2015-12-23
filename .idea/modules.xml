@@ -20,6 +20,10 @@
       <module fileurl="file://$PROJECT_DIR$/016-坐标移动/016-坐标移动.iml" filepath="$PROJECT_DIR$/016-坐标移动/016-坐标移动.iml" />
       <module fileurl="file://$PROJECT_DIR$/017-密码验证合格程序/017-密码验证合格程序.iml" filepath="$PROJECT_DIR$/017-密码验证合格程序/017-密码验证合格程序.iml" />
       <module fileurl="file://$PROJECT_DIR$/018-识别有效的IP地址和掩码并进行分类统计/018-识别有效的IP地址和掩码并进行分类统计.iml" filepath="$PROJECT_DIR$/018-识别有效的IP地址和掩码并进行分类统计/018-识别有效的IP地址和掩码并进行分类统计.iml" />
+      <module fileurl="file://$PROJECT_DIR$/019-【中级】单词倒排/019-【中级】单词倒排.iml" filepath="$PROJECT_DIR$/019-【中级】单词倒排/019-【中级】单词倒排.iml" />
+      <module fileurl="file://$PROJECT_DIR$/020-简单密码破解/020-简单密码破解.iml" filepath="$PROJECT_DIR$/020-简单密码破解/020-简单密码破解.iml" />
+      <module fileurl="file://$PROJECT_DIR$/021-汽水瓶/021-汽水瓶.iml" filepath="$PROJECT_DIR$/021-汽水瓶/021-汽水瓶.iml" />
+      <module fileurl="file://$PROJECT_DIR$/022-删除字符串中出现次数最少的字符/022-删除字符串中出现次数最少的字符.iml" filepath="$PROJECT_DIR$/022-删除字符串中出现次数最少的字符/022-删除字符串中出现次数最少的字符.iml" />
     </modules>
   </component>
 </project>
