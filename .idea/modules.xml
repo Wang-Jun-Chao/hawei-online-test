@@ -26,9 +26,10 @@
       <module fileurl="file://$PROJECT_DIR$/022-删除字符串中出现次数最少的字符/022-删除字符串中出现次数最少的字符.iml" filepath="$PROJECT_DIR$/022-删除字符串中出现次数最少的字符/022-删除字符串中出现次数最少的字符.iml" />
       <module fileurl="file://$PROJECT_DIR$/023-字符串加解密/023-字符串加解密.iml" filepath="$PROJECT_DIR$/023-字符串加解密/023-字符串加解密.iml" />
       <module fileurl="file://$PROJECT_DIR$/024-字符串排序/024-字符串排序.iml" filepath="$PROJECT_DIR$/024-字符串排序/024-字符串排序.iml" />
-      <module fileurl="file://$PROJECT_DIR$/025-图片整理/025-图片整理.iml" filepath="$PROJECT_DIR$/025-图片整理/025-图片整理.iml" />
+      <module fileurl="file://$PROJECT_DIR$/025-字符串合并处理/025-字符串合并处理.iml" filepath="$PROJECT_DIR$/025-字符串合并处理/025-字符串合并处理.iml" />
       <module fileurl="file://$PROJECT_DIR$/026-字符串加密/026-字符串加密.iml" filepath="$PROJECT_DIR$/026-字符串加密/026-字符串加密.iml" />
       <module fileurl="file://$PROJECT_DIR$/027-【中级】字符串运用-密码截取/027-【中级】字符串运用-密码截取.iml" filepath="$PROJECT_DIR$/027-【中级】字符串运用-密码截取/027-【中级】字符串运用-密码截取.iml" />
+      <module fileurl="file://$PROJECT_DIR$/028-图片整理/025-图片整理.iml" filepath="$PROJECT_DIR$/028-图片整理/025-图片整理.iml" />
     </modules>
   </component>
 </project>
