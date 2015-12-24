@@ -57,9 +57,8 @@ public class Main {
             for (int i = 0, j; (j = i + gap - 1) <= len - 1; i++) {
                 if (s.charAt(i) == s.charAt(j)) {
                     t[i][j] = t[i+1][j-1];
-                    if (t[i][j] && gap >= maxLen) {
+                    if (t[i][j] && gap > maxLen) {
                         maxLen = gap;
-                        System.out.println(s.substring(i, j + 1));
                     }
                 } else {
                     t[i][j] = false;
