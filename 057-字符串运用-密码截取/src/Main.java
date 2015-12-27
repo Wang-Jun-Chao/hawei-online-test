@@ -2,8 +2,8 @@ import java.util.Scanner;
 
 /**
  * Author: 王俊超
- * Date: 2015-12-24 10:57
- * Declaration: All Rights Reserved !!!
+ * Date: 2015-12-25 15:20
+ * All Rights Reserved !!!
  */
 public class Main {
     public static void main(String[] args) {
