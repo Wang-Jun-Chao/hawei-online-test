@@ -29,7 +29,7 @@
       <module fileurl="file://$PROJECT_DIR$/025-字符串合并处理/025-字符串合并处理.iml" filepath="$PROJECT_DIR$/025-字符串合并处理/025-字符串合并处理.iml" />
       <module fileurl="file://$PROJECT_DIR$/026-字符串加密/026-字符串加密.iml" filepath="$PROJECT_DIR$/026-字符串加密/026-字符串加密.iml" />
       <module fileurl="file://$PROJECT_DIR$/027-【中级】字符串运用-密码截取/027-【中级】字符串运用-密码截取.iml" filepath="$PROJECT_DIR$/027-【中级】字符串运用-密码截取/027-【中级】字符串运用-密码截取.iml" />
-      <module fileurl="file://$PROJECT_DIR$/028-图片整理/025-图片整理.iml" filepath="$PROJECT_DIR$/028-图片整理/025-图片整理.iml" />
+      <module fileurl="file://$PROJECT_DIR$/028-图片整理/028-图片整理.iml" filepath="$PROJECT_DIR$/028-图片整理/028-图片整理.iml" />
       <module fileurl="file://$PROJECT_DIR$/029-统计每个月兔子的总数/029-统计每个月兔子的总数.iml" filepath="$PROJECT_DIR$/029-统计每个月兔子的总数/029-统计每个月兔子的总数.iml" />
       <module fileurl="file://$PROJECT_DIR$/030-整数与IP地址间的转换/030-整数与IP地址间的转换.iml" filepath="$PROJECT_DIR$/030-整数与IP地址间的转换/030-整数与IP地址间的转换.iml" />
       <module fileurl="file://$PROJECT_DIR$/031-求小球落地5次后所经历的路程和第5次反弹的高度/031-求小球落地5次后所经历的路程和第5次反弹的高度.iml" filepath="$PROJECT_DIR$/031-求小球落地5次后所经历的路程和第5次反弹的高度/031-求小球落地5次后所经历的路程和第5次反弹的高度.iml" />
@@ -39,6 +39,19 @@
       <module fileurl="file://$PROJECT_DIR$/035-输出单向链表中倒数第k个结点/035-输出单向链表中倒数第k个结点.iml" filepath="$PROJECT_DIR$/035-输出单向链表中倒数第k个结点/035-输出单向链表中倒数第k个结点.iml" />
       <module fileurl="file://$PROJECT_DIR$/036-iNOC产品部-杨辉三角的变形/036-iNOC产品部-杨辉三角的变形.iml" filepath="$PROJECT_DIR$/036-iNOC产品部-杨辉三角的变形/036-iNOC产品部-杨辉三角的变形.iml" />
       <module fileurl="file://$PROJECT_DIR$/037-无线OSS高精度整数加法/037-无线OSS高精度整数加法.iml" filepath="$PROJECT_DIR$/037-无线OSS高精度整数加法/037-无线OSS高精度整数加法.iml" />
+      <module fileurl="file://$PROJECT_DIR$/038-输入n个整数，输出其中最小的k个/038-输入n个整数，输出其中最小的k个.iml" filepath="$PROJECT_DIR$/038-输入n个整数，输出其中最小的k个/038-输入n个整数，输出其中最小的k个.iml" />
+      <module fileurl="file://$PROJECT_DIR$/039-iNOC产品部--完全数计算/039-iNOC产品部--完全数计算.iml" filepath="$PROJECT_DIR$/039-iNOC产品部--完全数计算/039-iNOC产品部--完全数计算.iml" />
+      <module fileurl="file://$PROJECT_DIR$/040-（练习用）挑7/040-（练习用）挑7.iml" filepath="$PROJECT_DIR$/040-（练习用）挑7/040-（练习用）挑7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/041-查找输入整数二进制中1的个数/041-查找输入整数二进制中1的个数.iml" filepath="$PROJECT_DIR$/041-查找输入整数二进制中1的个数/041-查找输入整数二进制中1的个数.iml" />
+      <module fileurl="file://$PROJECT_DIR$/042-矩阵乘法/042-矩阵乘法.iml" filepath="$PROJECT_DIR$/042-矩阵乘法/042-矩阵乘法.iml" />
+      <module fileurl="file://$PROJECT_DIR$/044-超长正整数相加/044-超长正整数相加.iml" filepath="$PROJECT_DIR$/044-超长正整数相加/044-超长正整数相加.iml" />
+      <module fileurl="file://$PROJECT_DIR$/045-计算日期到天数转换/045-计算日期到天数转换.iml" filepath="$PROJECT_DIR$/045-计算日期到天数转换/045-计算日期到天数转换.iml" />
+      <module fileurl="file://$PROJECT_DIR$/046-成绩排序/046-成绩排序.iml" filepath="$PROJECT_DIR$/046-成绩排序/046-成绩排序.iml" />
+      <module fileurl="file://$PROJECT_DIR$/047-百钱买百鸡问题/047-百钱买百鸡问题.iml" filepath="$PROJECT_DIR$/047-百钱买百鸡问题/047-百钱买百鸡问题.iml" />
+      <module fileurl="file://$PROJECT_DIR$/048-参数解析/048-参数解析.iml" filepath="$PROJECT_DIR$/048-参数解析/048-参数解析.iml" />
+      <module fileurl="file://$PROJECT_DIR$/049-尼科彻斯定理/049-尼科彻斯定理.iml" filepath="$PROJECT_DIR$/049-尼科彻斯定理/049-尼科彻斯定理.iml" />
+      <module fileurl="file://$PROJECT_DIR$/050-整形数组合并/050-整形数组合并.iml" filepath="$PROJECT_DIR$/050-整形数组合并/050-整形数组合并.iml" />
+      <module fileurl="file://$PROJECT_DIR$/051-查找组成一个偶数最接近的两个素数/051-查找组成一个偶数最接近的两个素数.iml" filepath="$PROJECT_DIR$/051-查找组成一个偶数最接近的两个素数/051-查找组成一个偶数最接近的两个素数.iml" />
       <module fileurl="file://$PROJECT_DIR$/055-字符串匹配/055-字符串匹配.iml" filepath="$PROJECT_DIR$/055-字符串匹配/055-字符串匹配.iml" />
       <module fileurl="file://$PROJECT_DIR$/056-统计大写字母个数/056-统计大写字母个数.iml" filepath="$PROJECT_DIR$/056-统计大写字母个数/056-统计大写字母个数.iml" />
       <module fileurl="file://$PROJECT_DIR$/057-字符串运用-密码截取/057-字符串运用-密码截取.iml" filepath="$PROJECT_DIR$/057-字符串运用-密码截取/057-字符串运用-密码截取.iml" />

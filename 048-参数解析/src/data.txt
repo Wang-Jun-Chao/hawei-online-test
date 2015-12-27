@@ -1,0 +1,2 @@
+xcopy /s c:\\\ d:\\\
+gqpj /lrl d:\ a:\ c:\ /nkb
