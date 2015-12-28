@@ -52,6 +52,9 @@
       <module fileurl="file://$PROJECT_DIR$/049-尼科彻斯定理/049-尼科彻斯定理.iml" filepath="$PROJECT_DIR$/049-尼科彻斯定理/049-尼科彻斯定理.iml" />
       <module fileurl="file://$PROJECT_DIR$/050-整形数组合并/050-整形数组合并.iml" filepath="$PROJECT_DIR$/050-整形数组合并/050-整形数组合并.iml" />
       <module fileurl="file://$PROJECT_DIR$/051-查找组成一个偶数最接近的两个素数/051-查找组成一个偶数最接近的两个素数.iml" filepath="$PROJECT_DIR$/051-查找组成一个偶数最接近的两个素数/051-查找组成一个偶数最接近的两个素数.iml" />
+      <module fileurl="file://$PROJECT_DIR$/052-输入整型数组和排序标识，对其元素按照升序或降序进行排序/052-输入整型数组和排序标识，对其元素按照升序或降序进行排序.iml" filepath="$PROJECT_DIR$/052-输入整型数组和排序标识，对其元素按照升序或降序进行排序/052-输入整型数组和排序标识，对其元素按照升序或降序进行排序.iml" />
+      <module fileurl="file://$PROJECT_DIR$/053-字符统计/053-字符统计.iml" filepath="$PROJECT_DIR$/053-字符统计/053-字符统计.iml" />
+      <module fileurl="file://$PROJECT_DIR$/054-Redraiment的走法/054-Redraiment的走法.iml" filepath="$PROJECT_DIR$/054-Redraiment的走法/054-Redraiment的走法.iml" />
       <module fileurl="file://$PROJECT_DIR$/055-字符串匹配/055-字符串匹配.iml" filepath="$PROJECT_DIR$/055-字符串匹配/055-字符串匹配.iml" />
       <module fileurl="file://$PROJECT_DIR$/056-统计大写字母个数/056-统计大写字母个数.iml" filepath="$PROJECT_DIR$/056-统计大写字母个数/056-统计大写字母个数.iml" />
       <module fileurl="file://$PROJECT_DIR$/057-字符串运用-密码截取/057-字符串运用-密码截取.iml" filepath="$PROJECT_DIR$/057-字符串运用-密码截取/057-字符串运用-密码截取.iml" />
@@ -60,6 +63,10 @@
       <module fileurl="file://$PROJECT_DIR$/060-自守数/060-自守数.iml" filepath="$PROJECT_DIR$/060-自守数/060-自守数.iml" />
       <module fileurl="file://$PROJECT_DIR$/061-等差数列/061-等差数列.iml" filepath="$PROJECT_DIR$/061-等差数列/061-等差数列.iml" />
       <module fileurl="file://$PROJECT_DIR$/062-表示数字/062-表示数字.iml" filepath="$PROJECT_DIR$/062-表示数字/062-表示数字.iml" />
+      <module fileurl="file://$PROJECT_DIR$/063-字符串分割/063-字符串分割.iml" filepath="$PROJECT_DIR$/063-字符串分割/063-字符串分割.iml" />
+      <module fileurl="file://$PROJECT_DIR$/064-记负均正II/064-记负均正II.iml" filepath="$PROJECT_DIR$/064-记负均正II/064-记负均正II.iml" />
+      <module fileurl="file://$PROJECT_DIR$/065-字符逆序/065-字符逆序.iml" filepath="$PROJECT_DIR$/065-字符逆序/065-字符逆序.iml" />
+      <module fileurl="file://$PROJECT_DIR$/066-求解立方根/066-求解立方根.iml" filepath="$PROJECT_DIR$/066-求解立方根/066-求解立方根.iml" />
     </modules>
   </component>
 </project>
