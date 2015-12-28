@@ -11,31 +11,27 @@ public class Main {
         Scanner scanner = new Scanner(Main.class.getClassLoader().getResourceAsStream("data.txt"));
         while (scanner.hasNext()) {
             double d = scanner.nextDouble();
-            System.out.println(getCubeRoot(d));
+            System.out.printf("%g\n", getCubeRoot(d, d));
         }
 
         scanner.close();
     }
 
-    private static double getCubeRoot(double d) {
+    private static double getCubeRoot(double x, double a) {
 
-        // 结果
-        double r = 1;
+//        double x1 = 2.0 / 3.0 * x + a / (3.0 * x * x);
+//        if (x - x1 > -0.000000001 && x - x1 < 0.0000000001)
+//            return x1;
+//        else
+//            return getCubeRoot(x1, a);
+        double x0;
+        double x1 = a;
+        do {
+            x0 = x1;
+            x1 = 2.0 / 3.0 * x0 + a / (3.0 * x0 * x0);
 
-        int M = 100;
-        double x_1 = 1;
-        double ii = 1;
-        double e = 0;
+        } while (Math.abs(x1 - x0) < 0.000001);
 
-        for (int n = 1; n <= M; n++) {
-
-            x_1 *= (d - 1);
-            ii *= ((4.0 / 3.0 - n) / n);
-            e = x_1*ii;
-
-            r += e;
-        }
-
-        return r;
+        return x1;
     }
 }
