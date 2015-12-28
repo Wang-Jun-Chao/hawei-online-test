@@ -67,6 +67,7 @@
       <module fileurl="file://$PROJECT_DIR$/064-记负均正II/064-记负均正II.iml" filepath="$PROJECT_DIR$/064-记负均正II/064-记负均正II.iml" />
       <module fileurl="file://$PROJECT_DIR$/065-字符逆序/065-字符逆序.iml" filepath="$PROJECT_DIR$/065-字符逆序/065-字符逆序.iml" />
       <module fileurl="file://$PROJECT_DIR$/066-求解立方根/066-求解立方根.iml" filepath="$PROJECT_DIR$/066-求解立方根/066-求解立方根.iml" />
+      <module fileurl="file://$PROJECT_DIR$/067-求最小公倍数/067-求最小公倍数.iml" filepath="$PROJECT_DIR$/067-求最小公倍数/067-求最小公倍数.iml" />
     </modules>
   </component>
 </project>
