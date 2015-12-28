@@ -6,7 +6,7 @@ import java.util.Scanner;
  * All Rights Reserved !!!
  */
 public class Main {
-    // TODO 未完成，验证不通过
+
     public static void main(String[] args) {
 //        Scanner scanner = new Scanner(System.in);
         Scanner scanner = new Scanner(Main.class.getClassLoader().getResourceAsStream("data.txt"));
@@ -14,7 +14,7 @@ public class Main {
         int[] result = new int[7];
 
         while (scanner.hasNextLine()) {
-            String input = scanner.nextLine();
+            String input = scanner.next();
             ipAndMaskRecognize(input, result);
         }
         scanner.close();
@@ -80,24 +80,12 @@ public class Main {
 
         try {
 
-            int a = Integer.parseInt(part[3]);
-            if (a < 0 || a > 255) {
-                return false;
-            }
 
-            a = Integer.parseInt(part[2]);
-            if (a < 0 || a > 255) {
-                return false;
-            }
-
-            a = Integer.parseInt(part[1]);
-            if (a < 0 || a > 255) {
-                return false;
-            }
-
-            a = Integer.parseInt(part[0]);
-            if (a < 1 || a > 255) {
-                return false;
+            for (String p : part) {
+                int a = Integer.parseInt(p);
+                if (a < 0 || a > 255) {
+                    return false;
+                }
             }
 
         } catch (Exception e) {
@@ -142,13 +130,14 @@ public class Main {
         }
 
         // 私有地址，用7表示
-        // 仅仅只是私有地址
-        if (a == 172 && (b >= 16 || b <= 31)) {
-            result = 7;
-        }
         // 是私有地址并且是A类地址
         if (a == 10) {
             result = 7 + 1;
+        }
+
+        // 仅仅只是私有地址
+        if (a == 172 && (b >= 16 || b <= 31)) {
+            result = 7 + 2;
         }
 
         // 是私有地址并且是C类地址
