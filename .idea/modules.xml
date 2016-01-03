@@ -69,6 +69,9 @@
       <module fileurl="file://$PROJECT_DIR$/066-求解立方根/066-求解立方根.iml" filepath="$PROJECT_DIR$/066-求解立方根/066-求解立方根.iml" />
       <module fileurl="file://$PROJECT_DIR$/067-求最小公倍数/067-求最小公倍数.iml" filepath="$PROJECT_DIR$/067-求最小公倍数/067-求最小公倍数.iml" />
       <module fileurl="file://$PROJECT_DIR$/068-购物单/068-购物单.iml" filepath="$PROJECT_DIR$/068-购物单/068-购物单.iml" />
+      <module fileurl="file://$PROJECT_DIR$/069-简单错误记录/069-简单错误记录.iml" filepath="$PROJECT_DIR$/069-简单错误记录/069-简单错误记录.iml" />
+      <module fileurl="file://$PROJECT_DIR$/075-判断两个IP是否属于同一子网/075-判断两个IP是否属于同一子网.iml" filepath="$PROJECT_DIR$/075-判断两个IP是否属于同一子网/075-判断两个IP是否属于同一子网.iml" />
+      <module fileurl="file://$PROJECT_DIR$/076-蛇形矩阵/076-蛇形矩阵.iml" filepath="$PROJECT_DIR$/076-蛇形矩阵/076-蛇形矩阵.iml" />
     </modules>
   </component>
 </project>
