@@ -1,4 +1,6 @@
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
 
 /**
  * Author: 王俊超
@@ -24,7 +26,6 @@ public class Main {
                 }
             }
 
-
             Error e = new Error(name, line, 1);
 
             Error err = contains(errors, e);
@@ -43,9 +44,25 @@ public class Main {
         scanner.close();
 
 
-        for (Error e : errors) {
-            System.out.println(e.name + " " + e.line + " " + e.count);
+        StringBuilder builder = new StringBuilder(128);
+        // 说明数组8个位置还没有使用完
+        if (idx < 8) {
+
+            for (int i = 0; i < idx; i++) {
+                Error e = errors[i];
+                builder.append(e.name).append(' ').append(e.line).append(' ').append(e.count).append(' ');
+            }
         }
+        // 说明数组中已经放满了数据
+        else {
+            // 其中idx位置才是第一个位置
+            for (int i = idx; i < idx + 8; i++) {
+                Error e = errors[i%8];
+                builder.append(e.name).append(' ').append(e.line).append(' ').append(e.count).append(' ');
+            }
+        }
+
+        System.out.print(builder.substring(0, builder.length()-1));
     }
 
     private static Error contains(Error[] errors, Error e) {
