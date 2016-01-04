@@ -76,6 +76,13 @@
       <module fileurl="file://$PROJECT_DIR$/078-计算字符串的距离/078-计算字符串的距离.iml" filepath="$PROJECT_DIR$/078-计算字符串的距离/078-计算字符串的距离.iml" />
       <module fileurl="file://$PROJECT_DIR$/079-查找组成一个偶数最接近的两个素数/079-查找组成一个偶数最接近的两个素数.iml" filepath="$PROJECT_DIR$/079-查找组成一个偶数最接近的两个素数/079-查找组成一个偶数最接近的两个素数.iml" />
       <module fileurl="file://$PROJECT_DIR$/080-放苹果/080-放苹果.iml" filepath="$PROJECT_DIR$/080-放苹果/080-放苹果.iml" />
+      <module fileurl="file://$PROJECT_DIR$/081-查找两个字符串a-b中的最长公共子串/081-查找两个字符串a-b中的最长公共子串.iml" filepath="$PROJECT_DIR$/081-查找两个字符串a-b中的最长公共子串/081-查找两个字符串a-b中的最长公共子串.iml" />
+      <module fileurl="file://$PROJECT_DIR$/082-字符串通配符/082-字符串通配符.iml" filepath="$PROJECT_DIR$/082-字符串通配符/082-字符串通配符.iml" />
+      <module fileurl="file://$PROJECT_DIR$/083-计算字符串的相似度/083-计算字符串的相似度.iml" filepath="$PROJECT_DIR$/083-计算字符串的相似度/083-计算字符串的相似度.iml" />
+      <module fileurl="file://$PROJECT_DIR$/084-求最大连续bit数/084-求最大连续bit数.iml" filepath="$PROJECT_DIR$/084-求最大连续bit数/084-求最大连续bit数.iml" />
+      <module fileurl="file://$PROJECT_DIR$/085-记负均正/085-记负均正.iml" filepath="$PROJECT_DIR$/085-记负均正/085-记负均正.iml" />
+      <module fileurl="file://$PROJECT_DIR$/086-密码强度等级/086-密码强度等级.iml" filepath="$PROJECT_DIR$/086-密码强度等级/086-密码强度等级.iml" />
+      <module fileurl="file://$PROJECT_DIR$/087-在字符串中找出连续最长的数字串/087-在字符串中找出连续最长的数字串.iml" filepath="$PROJECT_DIR$/087-在字符串中找出连续最长的数字串/087-在字符串中找出连续最长的数字串.iml" />
     </modules>
   </component>
 </project>
