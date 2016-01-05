@@ -11,64 +11,59 @@ public class Main {
 //        Scanner scanner = new Scanner(Main.class.getClassLoader().getResourceAsStream("data.txt"));
         while (scanner.hasNext()) {
             String input = scanner.nextLine();
-            System.out.println(longestPalindrome(input));
+            String reverse = new StringBuilder(input).reverse().toString();
+            System.out.println(findMaxSubstring(input, reverse));
         }
 
         scanner.close();
     }
 
     /**
-     * 这道题本质是求字符串中的最大回文字串的长度
-     * 动态规划法，
-     * 假设dp[ i ][ j ]的值为true，表示字符串s中下标从 i 到 j 的字符组成的子串是回文串。那么可以推出：
-     * dp[ i ][ j ] = dp[ i + 1][ j - 1] && s[ i ] == s[ j ]。
-     * 这是一般的情况，由于需要依靠i+1, j -1，所以有可能 i + 1 = j -1, i +1 = (j - 1) -1，
-     * 因此需要求出基准情况才能套用以上的公式：
-     * a. i + 1 = j -1，即回文长度为1时，dp[ i ][ i ] = true;
-     * b. i +1 = (j - 1) -1，即回文长度为2时，dp[ i ][ i + 1] = （s[ i ] == s[ i + 1]）。
-     * 有了以上分析就可以写出代码了。需要注意的是动态规划需要额外的O(n^2)的空间。
+     * Substring问题不光要求下标序列是递增的，还要求每次
+     * 递增的增量为1， 即两个下标序列为：
+     * < i, i+1, i+2, ..., i+k-1 > 和 < j, j+1, j+2, ..., j+k-1 >
+     * 类比Subquence问题的动态规划解法，Substring也可以用动态规划解决，令
+     * c[i][j]表示【包含Xi字符】和【Yi字符】的最大Substring的长度，比如
+     * X = < y, e, d, f >
+     * Y = < y, e, k, f >
+     * c[1][1] = 1
+     * c[2][2] = 2
+     * c[3][3] = 0
+     * c[4][4] = 1
+     * 动态转移方程为：
+     * 如果xi == yj， 则 c[i][j] = c[i-1][j-1]+1
+     * 如果xi != yj,  那么c[i][j] = 0
+     * 最后求Longest Common Substring的长度等于
+     * max{c[i][j],  1 <= i <= n， 1 <= j<= m}
      *
-     * @param s 待求字符串
-     * @return 最大回文字串的长度
+     * @param a
+     * @param b
+     * @return
      */
-    private static int longestPalindrome(String s) {
+    private static int findMaxSubstring(String a, String b) {
 
-        // 不考虑非法输入的情况，比如null
+        int aLen = a.length() + 1;
+        int bLen = b.length() + 1;
+        int max = 0;
+        int x = 0;
 
-        int maxLen = 0;
-        int len = s.length();
-        boolean[][] t = new boolean[len][len];
+        // 初始值都为0
+        int[][] c = new int[aLen][bLen];
 
-        // 单个字符串都是回文
-        for (int i = 0; i < len; i++) {
-            t[i][i] = true;
-            maxLen = 1;
-        }
-
-        for (int i = 0; i < len - 1; i++) {
-            if (s.charAt(i) == s.charAt(i + 1)) {
-                t[i][i + 1] = true;
-                maxLen = 2;
-            }
-        }
-
-        // 求长度大于2的子串是否是回文串
-        for (int gap = 3; gap <= len; gap++) {
-            for (int i = 0, j; (j = i + gap - 1) <= len - 1; i++) {
-                if (s.charAt(i) == s.charAt(j)) {
-                    t[i][j] = t[i+1][j-1];
-                    if (t[i][j] && gap > maxLen) {
-                        maxLen = gap;
-                    }
+        for (int i = 1; i < aLen; i++) {
+            for (int j = 1; j < bLen; j++) {
+                if (a.charAt(i - 1) == b.charAt(j - 1)) {
+                    c[i][j] = c[i - 1][j - 1] + 1;
                 } else {
-                    t[i][j] = false;
+                    c[i][j] = 0;
+                }
+
+                if (c[i][j] > max) {
+                    max = c[i][j];
                 }
             }
         }
 
-
-
-
-        return maxLen;
+        return max;
     }
 }

@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 //        Scanner scanner = new Scanner(System.in);
-        Scanner scanner = new Scanner(Main.class.getClassLoader().getResourceAsStream("data.txt"));
+        Scanner scanner = new Scanner(Main.class.getClassLoader().getResourceAsStream("data4.txt"));
 
         Error[] errors = new Error[8];
 
@@ -50,7 +50,7 @@ public class Main {
 
             for (int i = 0; i < idx; i++) {
                 Error e = errors[i];
-                builder.append(e.name).append(' ').append(e.line).append(' ').append(e.count).append(' ');
+                builder.append(e.name).append(' ').append(e.line).append(' ').append(e.count).append('\n');
             }
         }
         // 说明数组中已经放满了数据
@@ -58,7 +58,7 @@ public class Main {
             // 其中idx位置才是第一个位置
             for (int i = idx; i < idx + 8; i++) {
                 Error e = errors[i%8];
-                builder.append(e.name).append(' ').append(e.line).append(' ').append(e.count).append(' ');
+                builder.append(e.name).append(' ').append(e.line).append(' ').append(e.count).append('\n');
             }
         }
 
