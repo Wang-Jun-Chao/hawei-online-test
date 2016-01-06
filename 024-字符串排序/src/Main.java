@@ -19,7 +19,7 @@ public class Main {
 
     private static String sort(String s) {
 
-        System.out.println(s);
+//        System.out.println(s);
 
         char[] chars = new char[s.length()];
         int len = 0;
@@ -31,7 +31,7 @@ public class Main {
                 len++;
             }
         }
-        System.out.println(new String (chars, 0, len));
+//        System.out.println(new String (chars, 0, len));
         // 对收集到的字母进行排序，必须使用稳定性排序方法
         for (int i = 0; i < len; i++) {
             int idx = i;
