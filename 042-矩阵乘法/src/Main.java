@@ -46,6 +46,7 @@ public class Main {
 
                 builder.append(result).append(' ');
             }
+            builder.setCharAt(builder.length() - 1, '\n');
         }
 
         return builder.substring(0, builder.length() - 1);
