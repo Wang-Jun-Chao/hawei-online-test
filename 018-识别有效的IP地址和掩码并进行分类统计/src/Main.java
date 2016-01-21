@@ -79,15 +79,12 @@ public class Main {
         }
 
         try {
-
-
             for (String p : part) {
                 int a = Integer.parseInt(p);
                 if (a < 0 || a > 255) {
                     return false;
                 }
             }
-
         } catch (Exception e) {
             return false;
         }
