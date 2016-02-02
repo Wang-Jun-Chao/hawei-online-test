@@ -9,8 +9,9 @@ public class Main {
 
     public static void main(String[] args) {
 //        Scanner scanner = new Scanner(System.in);
-        // data2.txt 7 19 9 9 4 11 0答案输出
-        Scanner scanner = new Scanner(Main.class.getClassLoader().getResourceAsStream("data2.txt"));
+        // data.txt 7 19 9 9 4 11 0答案输出
+        // data2.txt 1 0 1 0 0 2 1
+        Scanner scanner = new Scanner(Main.class.getClassLoader().getResourceAsStream("data.txt"));
         // 0：A、1：B、2：C、3：D、4：E、5：错误IP地址或错误掩码、6：私有IP的个数
         int[] result = new int[7];
 
