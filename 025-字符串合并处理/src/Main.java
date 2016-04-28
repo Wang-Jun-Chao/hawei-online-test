@@ -10,8 +10,8 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 //        Scanner scanner = new Scanner(Main.class.getClassLoader().getResourceAsStream("data.txt"));
         while (scanner.hasNext()) {
-            String s1 = scanner.nextLine();
-            String s2 = scanner.nextLine();
+            String s1 = scanner.next();
+            String s2 = scanner.next();
             System.out.println(mergeStr(s1, s2));
         }
 
