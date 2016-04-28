@@ -7,43 +7,40 @@ import java.util.Scanner;
  */
 public class Main {
     public static void main(String[] args) {
-//        Scanner scanner = new Scanner(System.in);
-        Scanner scanner = new Scanner(Main.class.getClassLoader().getResourceAsStream("data.txt"));
+
+        Scanner scanner = new Scanner(System.in);
+        String str = "";
+
         while (scanner.hasNext()) {
-            String s = scanner.next();
-            int i = scanner.nextInt();
-
-
-//            System.out.println(s + "\n" + i);
-            System.out.println(ipToInt(s));
-            System.out.println(intToIP(i));
+            str = scanner.next();
+            if (str.contains(".")) {
+                System.out.println(ipToInt(str));
+            } else {
+                System.out.println(intToIp(str));
+            }
         }
 
         scanner.close();
     }
 
-    private static int ipToInt(String s) {
-
-        int result = 0;
-
-        String[] part = s.split("\\.");
-
-        for (int i = 0; i < part.length; i++) {
-            result += Integer.parseInt(part[i]) << (24 - 8 * i);
+    private static String intToIp(String str) {
+        String result = "";
+        Long input = Long.parseLong(str);
+        for (int i = 3; i >= 0; i--) {
+            result = (input & 0x000000FF) + "." + result;
+            input >>>= 8;
         }
+        return result.substring(0, result.length() - 1);
+    }
 
-
+    private static long ipToInt(String str) {
+        String[] array;
+        long result = 0;
+        array = str.split("[.]");
+        for (String s : array) {
+            result = (result << 8) + Integer.parseInt(s);
+        }
         return result;
     }
 
-    private static String intToIP(int n) {
-        StringBuilder builder = new StringBuilder();
-
-        for (int i = 0; i < 4; i++) {
-            int r = (n & (0xFF << (24 - 8 * i))) >> (24 - 8 * i);
-            builder.append(r).append('.');
-        }
-
-        return builder.substring(0, builder.length() - 1);
-    }
 }

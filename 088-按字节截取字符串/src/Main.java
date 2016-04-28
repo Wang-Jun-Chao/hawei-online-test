@@ -19,31 +19,25 @@ public class Main {
     }
 
     private static String getStringByBytes(String s, int n) {
-
         StringBuilder builder = new StringBuilder();
 
-        for (int i = 0, prev = 0, b = 0; i < s.length(); i++) {
-            char c = s.charAt(i);
+        for (int i = 0, sum = 0; i < s.length(); i++) {
+            if (String.valueOf(s.charAt(i)).getBytes().length == 1) {
+                sum += 1;
+                builder.append(s.charAt(i));
 
-
-            if (c < 128) {
-                b++;
+                if (sum >= n) {
+                    break;
+                }
             } else {
-                b += 2;
+                sum += 2;
+                if (sum >= n) {
+                    break;
+                }
+                builder.append(s.charAt(i));
             }
-
-            if (b == n) {
-                builder.append(s.substring(prev, i + 1)).append('\n');
-                prev = i + 1;
-                b = 0;
-            } else if(b > n){
-                builder.append(s.substring(prev, i)).append('\n');
-                prev = i;
-                b = 0;
-            }
-
         }
 
-        return builder.substring(0, builder.length() - 1);
+        return builder.toString();
     }
 }
