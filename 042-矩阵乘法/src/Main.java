@@ -7,8 +7,8 @@ import java.util.Scanner;
  */
 public class Main {
     public static void main(String[] args) {
-//        Scanner scanner = new Scanner(System.in);
-        Scanner scanner = new Scanner(Main.class.getClassLoader().getResourceAsStream("data.txt"));
+        Scanner scanner = new Scanner(System.in);
+//        Scanner scanner = new Scanner(Main.class.getClassLoader().getResourceAsStream("data.txt"));
         while (scanner.hasNext()) {
             int x = scanner.nextInt();
             int y = scanner.nextInt();
@@ -18,15 +18,18 @@ public class Main {
             int[][] b = new int[y][z];
 
 
-            int a1 = x * y;
-            for (int i = 0; i < a1; i++) {
-                a[i / y][i % y] = scanner.nextInt();
+            for(int i = 0; i < x; i++) {
+                for (int j = 0; j < y; j++) {
+                    a[i][j] = scanner.nextInt();
+                }
             }
 
-            int b1 = y * z;
-            for (int i = 0; i < b1; i++) {
-                b[i / z][i % z] = scanner.nextInt();
+            for(int i = 0; i < y; i++) {
+                for (int j = 0; j < z; j++) {
+                    b[i][j] = scanner.nextInt();
+                }
             }
+
 
             System.out.println(matrixMultiply(a, b));
         }
