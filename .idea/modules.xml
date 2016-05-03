@@ -92,6 +92,8 @@
       <module fileurl="file://$PROJECT_DIR$/089-DNA序列/089-DNA序列.iml" filepath="$PROJECT_DIR$/089-DNA序列/089-DNA序列.iml" />
       <module fileurl="file://$PROJECT_DIR$/090-合唱队/090-合唱队.iml" filepath="$PROJECT_DIR$/090-合唱队/090-合唱队.iml" />
       <module fileurl="file://$PROJECT_DIR$/091-数据分类处理/091-数据分类处理.iml" filepath="$PROJECT_DIR$/091-数据分类处理/091-数据分类处理.iml" />
+      <module fileurl="file://$PROJECT_DIR$/092-学英语/092-学英语.iml" filepath="$PROJECT_DIR$/092-学英语/092-学英语.iml" />
+      <module fileurl="file://$PROJECT_DIR$/093-从单向链表中删除指定值的节点/093-从单向链表中删除指定值的节点.iml" filepath="$PROJECT_DIR$/093-从单向链表中删除指定值的节点/093-从单向链表中删除指定值的节点.iml" />
     </modules>
   </component>
 </project>
