@@ -91,6 +91,7 @@
       <module fileurl="file://$PROJECT_DIR$/088-按字节截取字符串/088-按字节截取字符串.iml" filepath="$PROJECT_DIR$/088-按字节截取字符串/088-按字节截取字符串.iml" />
       <module fileurl="file://$PROJECT_DIR$/089-DNA序列/089-DNA序列.iml" filepath="$PROJECT_DIR$/089-DNA序列/089-DNA序列.iml" />
       <module fileurl="file://$PROJECT_DIR$/090-合唱队/090-合唱队.iml" filepath="$PROJECT_DIR$/090-合唱队/090-合唱队.iml" />
+      <module fileurl="file://$PROJECT_DIR$/091-数据分类处理/091-数据分类处理.iml" filepath="$PROJECT_DIR$/091-数据分类处理/091-数据分类处理.iml" />
     </modules>
   </component>
 </project>
