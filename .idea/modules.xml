@@ -95,6 +95,7 @@
       <module fileurl="file://$PROJECT_DIR$/092-学英语/092-学英语.iml" filepath="$PROJECT_DIR$/092-学英语/092-学英语.iml" />
       <module fileurl="file://$PROJECT_DIR$/093-从单向链表中删除指定值的节点/093-从单向链表中删除指定值的节点.iml" filepath="$PROJECT_DIR$/093-从单向链表中删除指定值的节点/093-从单向链表中删除指定值的节点.iml" />
       <module fileurl="file://$PROJECT_DIR$/094-多线程/094-多线程.iml" filepath="$PROJECT_DIR$/094-多线程/094-多线程.iml" />
+      <module fileurl="file://$PROJECT_DIR$/095-四则运算/095-四则运算.iml" filepath="$PROJECT_DIR$/095-四则运算/095-四则运算.iml" />
     </modules>
   </component>
 </project>
