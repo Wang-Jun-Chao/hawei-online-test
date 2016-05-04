@@ -100,6 +100,7 @@
       <module fileurl="file://$PROJECT_DIR$/097-24点游戏算法/097-24点游戏算法.iml" filepath="$PROJECT_DIR$/097-24点游戏算法/097-24点游戏算法.iml" />
       <module fileurl="file://$PROJECT_DIR$/098-矩阵乘法计算量估算/098-矩阵乘法计算量估算.iml" filepath="$PROJECT_DIR$/098-矩阵乘法计算量估算/098-矩阵乘法计算量估算.iml" />
       <module fileurl="file://$PROJECT_DIR$/099-MP3光标位置/099-MP3光标位置.iml" filepath="$PROJECT_DIR$/099-MP3光标位置/099-MP3光标位置.iml" />
+      <module fileurl="file://$PROJECT_DIR$/100-配置文件恢复/100-配置文件恢复.iml" filepath="$PROJECT_DIR$/100-配置文件恢复/100-配置文件恢复.iml" />
     </modules>
   </component>
 </project>

@@ -1,0 +1,95 @@
+reboot backplane
+reset
+reset
+reset
+he he
+board add
+reboot backplane
+reset
+reset
+he he
+reset
+board add
+he he
+reset
+reset
+board delet
+he he
+board delet
+backplane abort
+reset
+board add
+reset
+he he
+board add
+reboot backplane
+board add
+reset board
+he he
+reboot backplane
+board add
+board delet
+board add
+board add
+reset board
+board add
+board delet
+board delet
+reset board
+reset
+he he
+reboot backplane
+backplane abort
+reboot backplane
+reboot backplane
+board delet
+he he
+reset
+board add
+reboot backplane
+board add
+reboot backplane
+board add
+board add
+reset
+reset
+reboot backplane
+reset
+board delet
+he he
+reset
+reboot backplane
+backplane abort
+reboot backplane
+reboot backplane
+reset board
+reboot backplane
+reset board
+reboot backplane
+he he
+board add
+he he
+reset board
+board delet
+board add
+board add
+board delet
+reset board
+reset
+board delet
+he he
+board add
+he he
+board delet
+he he
+backplane abort
+he he
+board add
+board delet
+board delet
+backplane abort
+reboot backplane
+reset
+reset board
+board add
+backplane abort

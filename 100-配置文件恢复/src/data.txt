@@ -1,0 +1,6 @@
+reset
+reset board
+board add
+board delet
+reboot backplane
+backplane abort
