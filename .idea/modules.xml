@@ -98,6 +98,7 @@
       <module fileurl="file://$PROJECT_DIR$/095-四则运算/095-四则运算.iml" filepath="$PROJECT_DIR$/095-四则运算/095-四则运算.iml" />
       <module fileurl="file://$PROJECT_DIR$/096-表达式求值/096-表达式求值.iml" filepath="$PROJECT_DIR$/096-表达式求值/096-表达式求值.iml" />
       <module fileurl="file://$PROJECT_DIR$/097-24点游戏算法/097-24点游戏算法.iml" filepath="$PROJECT_DIR$/097-24点游戏算法/097-24点游戏算法.iml" />
+      <module fileurl="file://$PROJECT_DIR$/098-矩阵乘法计算量估算/098-矩阵乘法计算量估算.iml" filepath="$PROJECT_DIR$/098-矩阵乘法计算量估算/098-矩阵乘法计算量估算.iml" />
     </modules>
   </component>
 </project>
