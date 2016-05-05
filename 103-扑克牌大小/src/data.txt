@@ -1,1 +1,4 @@
 4 4 4 4-joker JOKER
+J J J J-3 3 3 3
+joker JOKER-K K K K
+10-3 3

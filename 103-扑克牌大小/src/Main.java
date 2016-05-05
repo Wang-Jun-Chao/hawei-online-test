@@ -31,8 +31,8 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 //        Scanner scanner = new Scanner(Main.class.getClassLoader().getResourceAsStream("data.txt"));
-        while (scanner.hasNext()) {
-            String input = scanner.next();
+        while (scanner.hasNextLine()) {
+            String input = scanner.nextLine();
             String[] parts = input.split("-");
             System.out.println(compare(parts[0], parts[1]));
         }
@@ -67,7 +67,7 @@ public class Main {
         if (st == Type.QUADRUPLE && tt == Type.QUADRUPLE) {
             if (sr[0] > tr[0]) {
                 return s;
-            } else {
+            } else if (sr[0] < tr[0]) {
                 return t;
             }
         }
@@ -80,15 +80,21 @@ public class Main {
             return t;
         }
 
-        // 没有王炸和炸弹
+        // 没有王炸和炸弹，相同的才能比较
+        if (st == tt) {
+            if (sr[0] > tr[0]) {
+                return s;
+            } else if (sr[0] < tr[0]) {
+                return t;
+            }
+        }
 
 
-
-        return null;
+        return "ERROR";
     }
 
     /**
-     * 判断牌的类型，一手牌最多5个
+     * 判断牌的类型，顺子已经从小到大排列
      *
      * @param s 牌
      * @param r 返回牌类型的值
@@ -116,7 +122,7 @@ public class Main {
         }
 
         // 全部都是个子
-        if (map.size() == 5) {
+        if (map.size() == parts.length) {
             int[] num = convert(parts);
 
             int max = num[0];
@@ -136,95 +142,48 @@ public class Main {
 
             // 记录最大值
             r[0] = max;
-            // 是顺子
-            if (straight) {
+            // 是顺子（不小于5张牌）
+            if (straight && parts.length >= 5) {
                 return Type.STRAIGHT;
             } else {
                 return Type.SINGLE;
             }
-
-
         }
-        // 有一对
-        else if (map.size() == 4) {
+        // 有对子，三个，或者炸弹
+        else {
+            // 记录是对子，三个，或者炸弹
+            int type = 0;
+            // 记录牌面值
+            int value = 0;
+
             for (Map.Entry<String, Integer> e : map.entrySet()) {
-                if (e.getValue() == 2) {
-                    r[0] = convert(e.getKey());
-                    break;
+                // 比type高一阶
+                if (e.getValue() > type) {
+                    type = e.getValue();
+                    value = convert(e.getKey());
                 }
-            }
-
-            return Type.PAIR;
-        }
-        // 有两对，或者三个带两个单牌
-        else if (map.size() == 3) {
-            int v = 0;
-            for (Map.Entry<String, Integer> e : map.entrySet()) {
-                if (e.getValue() == 3) {
-                    r[0] = convert(e.getKey());
-                    // 三个
-                    return Type.TRIPLE;
-                } else if (e.getValue() == 2) {
-                    int i = convert(e.getKey());
-                    if (i > v) {
-                        v = i;
+                // 同一阶，就记录牌面值较大的
+                else if (e.getValue() == type) {
+                    int temp = convert(e.getKey());
+                    if (temp > value) {
+                        value = temp;
                     }
                 }
-            }
 
-            // 说明是两对
-            r[0] = v;
-            return Type.PAIR;
+                r[0] = value;
 
-        }
-        // 有炸弹或者三个带一双
-        else if (map.size() == 2) {
-            int v = 0;
-            for (Map.Entry<String, Integer> e : map.entrySet()) {
-                // 炸弹
-                if (e.getValue() == 4) {
-                    r[0] = convert(e.getKey());
-
+                if (type == 2) {
+                    return Type.PAIR;
+                } else if (type == 3) {
+                    return Type.TRIPLE;
+                } else if (type == 4) {
                     return Type.QUADRUPLE;
                 }
-                // 三个带一双
-                else if (e.getValue() == 3) {
-                    r[0] = convert(e.getKey());
-                    return Type.TRIPLE;
-                }
             }
         }
 
-        // 其它情况，安排理说没有这个，但是从程序上执行需要
         return Type.ERROR;
     }
-
-//    /**
-//     * 查找记录中是否存在指定的值
-//     *
-//     * @param record 记录的集合
-//     * @param s      要查找的值
-//     * @param len    查找的最大的索引
-//     * @return 查找到的索引，没有找到就返回
-//     */
-//    private int contain(int[] record, String s, int len) {
-//        // 如果是小王
-//        if (s.equals("joker")) {
-//            int v = Integer.MAX_VALUE - 1;
-//            for (int i = 1; i < len * 2; i++) {
-//
-//            }
-//        }
-//        // 如果是大王
-//        else if (s.equals("JOKER")) {
-//
-//        }
-//        // 如果是其它的值
-//        else {
-//
-//        }
-//
-//    }
 
     /**
      * 将一副牌转换成数字
@@ -239,42 +198,6 @@ public class Main {
         }
 
         return result;
-    }
-
-    /**
-     * 将数字转换成牌面值
-     *
-     * @param i 数字
-     * @return 牌面值
-     */
-    private static String convert(int i) {
-        switch (i) {
-            case 3:
-            case 4:
-            case 5:
-            case 6:
-            case 7:
-            case 8:
-            case 9:
-            case 10:
-                return "" + i;
-            case 11:
-                return "J";
-            case 12:
-                return "Q";
-            case 13:
-                return "K";
-            case 14:
-                return "A";
-            case 15:
-                return "2";
-            case Integer.MAX_VALUE - 1:
-                return "joker";
-            case Integer.MAX_VALUE:
-                return "JOKER";
-        }
-
-        throw new RuntimeException("输入错误");
     }
 
     private static int convert(String s) {
