@@ -105,6 +105,8 @@
       <module fileurl="file://$PROJECT_DIR$/102-二维数组操作/102-二维数组操作.iml" filepath="$PROJECT_DIR$/102-二维数组操作/102-二维数组操作.iml" />
       <module fileurl="file://$PROJECT_DIR$/103-扑克牌大小/103-扑克牌大小.iml" filepath="$PROJECT_DIR$/103-扑克牌大小/103-扑克牌大小.iml" />
       <module fileurl="file://$PROJECT_DIR$/104-201301JAVA题目0-1级/104-201301JAVA题目0-1级.iml" filepath="$PROJECT_DIR$/104-201301JAVA题目0-1级/104-201301JAVA题目0-1级.iml" />
+      <module fileurl="file://$PROJECT_DIR$/105-人民币转换/105-人民币转换.iml" filepath="$PROJECT_DIR$/105-人民币转换/105-人民币转换.iml" />
+      <module fileurl="file://$PROJECT_DIR$/106-Sudoku-Java/106-Sudoku-Java.iml" filepath="$PROJECT_DIR$/106-Sudoku-Java/106-Sudoku-Java.iml" />
     </modules>
   </component>
 </project>
