@@ -102,6 +102,7 @@
       <module fileurl="file://$PROJECT_DIR$/099-MP3光标位置/099-MP3光标位置.iml" filepath="$PROJECT_DIR$/099-MP3光标位置/099-MP3光标位置.iml" />
       <module fileurl="file://$PROJECT_DIR$/100-配置文件恢复/100-配置文件恢复.iml" filepath="$PROJECT_DIR$/100-配置文件恢复/100-配置文件恢复.iml" />
       <module fileurl="file://$PROJECT_DIR$/101-将真分数分解为埃及分数/101-将真分数分解为埃及分数.iml" filepath="$PROJECT_DIR$/101-将真分数分解为埃及分数/101-将真分数分解为埃及分数.iml" />
+      <module fileurl="file://$PROJECT_DIR$/102-二维数组操作/102-二维数组操作.iml" filepath="$PROJECT_DIR$/102-二维数组操作/102-二维数组操作.iml" />
     </modules>
   </component>
 </project>
