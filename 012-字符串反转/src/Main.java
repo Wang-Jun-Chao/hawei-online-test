@@ -26,6 +26,4 @@ public class Main {
 
         return builder.toString();
     }
-
-
 }
