@@ -91,8 +91,8 @@ public class Main {
                 int temp = opd[n];
                 opd[n] = opd[i];
                 opd[i] = temp;
-                for (int j = 0; j < all.length; j++) {
-                    opt[n] = all[j];
+                for (char a : all) {
+                    opt[n] = a;
                     boolean find = point24(opd, opt, all, n + 1, r);
                     if (find) {
                         return true;
@@ -147,7 +147,7 @@ public class Main {
 
         if (s.length() == 1) {
             char c = s.charAt(0);
-            if (c >= '1' && c <= '9') {
+            if (c >= '2' && c <= '9') {
                 return c - '0';
             }
 
@@ -173,7 +173,7 @@ public class Main {
             }
         }
 
-        return 0;
+        throw new RuntimeException("参数错误：" + s + "，只能输入[2, 10]、J、Q、K、A");
     }
 
     /**
@@ -200,7 +200,7 @@ public class Main {
                 // do nothing
         }
 
-        return "0";
+        throw new RuntimeException("参数错误:" + i + "，牌值[1, 13]的整数");
     }
 
     /**
@@ -225,7 +225,7 @@ public class Main {
                 // do nothing
         }
 
-        throw new RuntimeException("输入错误：" + ((char) opt));
+        throw new RuntimeException("参数错误：" + ((char) opt) + "计算操作只支持加(+)、减(-)、*(乘)、除(、)");
     }
 
 }
