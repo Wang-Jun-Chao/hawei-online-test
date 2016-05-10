@@ -33,12 +33,12 @@ public class Main2 {
                 }
             }
 
-            MatrixMultiple(a, b, c);
+            matrixMultiple(a, b, c);
         }
         scanner.close();
     }
 
-    private static void MatrixMultiple(int[][] a, int[][] b, int[][] c) {
+    private static void matrixMultiple(int[][] a, int[][] b, int[][] c) {
         int x = a.length, y = a[0].length, z = c[0].length;
 
         for (int k = 0; k < z; k++) {
