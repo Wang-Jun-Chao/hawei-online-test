@@ -26,7 +26,7 @@ public class Main {
     }
 
     /**
-     * 大整数相加，n、m都为自然数
+     * 大整数相加
      *
      * @param ns 数字
      * @param ms 数字
@@ -96,7 +96,7 @@ public class Main {
     }
 
     /**
-     * 两个整数相加
+     * 两个不小于零的整数相加
      *
      * @param m 整数
      * @param n 整数
@@ -260,7 +260,7 @@ public class Main {
 
 
     /**
-     * 将整数字符串表示成整数数组【包含符号位】
+     * 将整数字符串表示成整数数组【不包含符号位】
      *
      * @param n 整数字符串
      * @return 整数数组 下标从小到大表示数位的从低到高
