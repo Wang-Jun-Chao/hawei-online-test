@@ -7,8 +7,8 @@ import java.util.Scanner;
  */
 public class Main {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-//        Scanner scanner = new Scanner(Main.class.getClassLoader().getResourceAsStream("data2.txt"));
+//        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(Main.class.getClassLoader().getResourceAsStream("data3.txt"));
         while (scanner.hasNext()) {
 
             String n = scanner.next();
@@ -235,8 +235,9 @@ public class Main {
             }
         }
 
-        // 还有借位
-        for (int i = m.length; c != 0 && i < n.length; i++) {
+
+        // 还有借位或者n比m位数多，要将n中的数位复制到r中
+        for (int i = m.length; i < n.length; i++) {
             t = n[i] - c;
             // 当前位够减
             if (t >= 0) {
@@ -251,6 +252,8 @@ public class Main {
                 c = 1;
             }
         }
+
+//        System.out.println(Arrays.toString(r));
 
         return format(r);
     }
