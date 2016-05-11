@@ -13,6 +13,7 @@ public class Main {
 //        Scanner scanner = new Scanner(System.in);
         Scanner scanner = new Scanner(Main.class.getClassLoader().getResourceAsStream("data.txt"));
         while (scanner.hasNext()) {
+            // 方法一
 //            int m = scanner.nextInt();
 //            int[] a = new int[m];
 //            for (int i = 0; i < m; i++) {
@@ -27,6 +28,7 @@ public class Main {
 //
 //            System.out.println(mergeArray(a, b));
 
+            // 方法二
             int m = scanner.nextInt();
             SortedSet<Integer> set = new TreeSet<>();
             for (int i = 0; i < m; i++) {
