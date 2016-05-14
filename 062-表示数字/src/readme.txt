@@ -1,26 +1,19 @@
 表示数字
-参与人数：4时间限制：1秒空间限制：32768K
-通过比例：57.14%
-最佳记录：0 ms|8552K （来自  _DdEar）
- 算法知识视频讲解
+
 题目描述
+    将一个字符中所有出现的数字前后加上符号“*”，其他字符保持不变
+    public static String MarkNum(String pInStr) {
+        return null;
+    }
 
-将一个字符中所有出现的数字前后加上符号“*”，其他字符保持不变
- public static String MarkNum(String pInStr)  {
-      return null;  }
 输入描述:
-
-输入一个字符串
-
+    输入一个字符串
 
 输出描述:
-
-字符中所有出现的数字前后加上符号“*”，其他字符保持不变
+    字符中所有出现的数字前后加上符号“*”，其他字符保持不变
 
 输入例子:
-
-Jkdi234klowe90a3
+    Jkdi234klowe90a3
 
 输出例子:
-
-Jkdi*234*klowe*90*a*3*
+    Jkdi*234*klowe*90*a*3*
