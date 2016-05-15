@@ -4,7 +4,7 @@ import java.util.Scanner;
  * 思路：给定购物单，逐级增加金额和件数，直到达到购物单上限止（商品件数或者总金额）；
  * 逐级计算出所对应的最大乘积值，并在此过程中，比较出到此级为止的乘积最大值
  * Author: 王俊超
- * Time: 2016-${NONTH}-24 08:30
+ * Time: 2016-01-24 08:30
  * CSDN: http://blog.csdn.net/derrantcm
  * Github: https://github.com/Wang-Jun-Chao
  * Declaration: All Rights Reserved !!!
@@ -40,7 +40,7 @@ public class Main {
             // 结果数组
             // 行代表物品个数，列代表钱数
             int[][] result = new int[num + 1][total + 1];
-            // 第一行赋0
+            // 第一列赋0
             for (int j = 0; j <= num; j++) {
                 result[j][0] = 0;
             }
@@ -55,7 +55,6 @@ public class Main {
 
                         // 总的钱数比(当前物品+他的主件)所需要的钱多
                         if (i > price[j] + price[check[j]]) {
-
                             int w = result[j - 1][i - price[j]] + value[j] * price[j];
                             result[j][i] = w > result[j - 1][i] ? w : result[j - 1][i];
                         }
