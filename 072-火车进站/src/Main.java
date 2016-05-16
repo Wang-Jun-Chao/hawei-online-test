@@ -22,6 +22,17 @@ public class Main {
         scanner.close();
     }
 
+    /**
+     * 此处所谓字典序排序的意思是这n辆火车有多少种出站的可能顺序（也就是数据结构中的栈有多少种出栈顺序）。
+     * 思路为用三个变量分别存储待进站火车，站中火车和已出站火车，其中待进站火车用Queue（队列）存储和站中
+     * 火车采用stack（栈）存储，已出站火车采用StringBuilder来存储，具体实现是采用递归的方法，递归函数
+     * 的参数为当前待进站火车、站中火车、已出站火车的值所组成的三元组，递归结束条件是，未进站火车和站中火
+     * 车均为空，此时输出已出站火车即为所有出站的一种可能，递推关系为对于当前情况有让下一辆火车进站或让站
+     * 中的一辆火车出站两种可能，对于两种可能分别调用递归函数，即可得出问题的解。
+     *
+     * @param ss
+     * @return
+     */
     private static String trainOut(String[] ss) {
 
 //        Arrays.sort(ss);
@@ -49,7 +60,6 @@ public class Main {
                 return a.size() - b.size();
             }
         });
-
 
         StringBuilder builder = new StringBuilder(256);
         for (List<String> list : result) {
