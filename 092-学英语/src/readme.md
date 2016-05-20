@@ -1,5 +1,4 @@
 #题目描述
-
     Jessi初学英语，为了快速读出一串数字，编写程序将数字转换成英文：
     如22：twenty two，123：one hundred and twenty three。
 
@@ -11,18 +10,14 @@
 
     方法原型：public static String parse(long num)
 
-
-
-
-#输入描述:
+##输入描述:
     输入一个long型整数
 
-
-#输出描述:
+##输出描述:
     输出相应的英文写法
 
-#输入例子:
+##输入例子:
     2356
 
-#输出例子:
+##输出例子:
     two thousand three hundred and fifty six
